@@ -1,117 +1,101 @@
-SecureHome is a mobile-based home security application designed to monitor security events and notify users instantly through SMS alerts.
-The application focuses on reliable alert delivery, clear system status visualization, and simulation of real-world security scenarios.
+# SecureHome – Mobile Security Application with SMS Alerts
 
-This project demonstrates application-level system design, alert handling logic, and user-centric security monitoring.
+SecureHome is a **mobile-based home security application** designed to monitor security events and notify users instantly through **SMS alerts**.
 
-Application Overview
+The application focuses on **reliable alert delivery**, clear system status visualization, and **simulation of real-world security scenarios**.
 
-Runs as a mobile application
+This project demonstrates **application-level system design**, alert handling logic, and **user-centric security monitoring**.
 
-Designed for real-time security awareness
+---
 
-Uses SMS notifications to alert users about critical events
+## Application Overview
 
-Includes a simulation environment to test different security scenarios
+- Runs as a mobile application
+- Designed for real-time security awareness
+- Uses SMS notifications to alert users about critical events
+- Includes a simulation environment to test different security scenarios
 
-Key Features
-Authentication
+---
 
-Secure login interface
+##  Key Features
 
-Demo credentials for quick access
+###  Authentication
+- Secure login interface
+- Demo credentials for quick access
+- Password visibility toggle for usability
 
-Password visibility toggle for usability
+---
 
-Home Dashboard (Control Hub)
+###  Home Dashboard (Control Hub)
+- System state: **Armed / Disarmed**
+- Overview of active sensors and cameras
+- Quick-action buttons (Lock system, 3D View)
+- Activity feed with severity levels
 
-System state: Armed / Disarmed
+---
 
-Overview of active sensors and cameras
+###  Camera Monitoring
+- Multi-camera tile layout
+- Camera online/offline status
+- Live activity indicators
+- AI detection labels (simulated)
 
-Quick-action buttons (Lock system, 3D View)
+---
 
-Activity feed with severity levels
+###  Sensor Monitoring
+- Motion, door, window, and glass-break sensors
+- Battery level indicators
+- Room-wise sensor grouping
+- Real-time alert banner
 
-Camera Monitoring
+---
 
-Multi-camera tile layout
+###  Alert & SMS Notification System
+- Detects critical security events
+- Displays alerts inside the app
+- Sends **SMS notifications** to the user for high-priority alerts
+- Ensures alerts reach users even when the app is not active
 
-Camera online/offline status
+---
 
-Live activity indicators
+###  3D Security Visualization
+- Visual house layout representation
+- Highlights breached areas
+- Improves response time and alert clarity
 
-AI detection labels (simulated)
+---
 
-Sensor Monitoring
+###  Simulation Center
+- Full home intrusion simulation
+- Fire and environmental hazard scenarios
+- Network failure and recovery testing
+- Power failure and battery backup behavior
 
-Motion, door, window, and glass-break sensors
+---
 
-Battery level indicators
+## Use Cases
 
-Room-wise sensor grouping
+- Mobile home security monitoring
+- Alert-based safety applications
+- Security system simulation and testing
+- Academic and portfolio demonstration
 
-Real-time alert banner
+---
 
-Alert & SMS Notification System (Core Feature)
+## Screenshots
 
-Detects critical security events
+Screenshots of the application UI are available in the `screenshots/` folder.
 
-Displays alerts inside the app
+---
 
-Sends SMS notifications to the user for high-priority events
+## 🔗 Demo
 
-Ensures alerts are received even when the app is not active
+- Canva Visual Walkthrough: **(add your Canva link here)**
 
-3D Security Visualization
+---
 
-Visual representation of the house layout
+##  Author
 
-Highlights breached areas
+**Karthik**  
+Electronics and Communication Engineering Student  
 
-Helps users quickly understand intrusion location
-
-Simulation Center
-
-Full home intrusion simulation
-
-Fire and environmental hazard scenarios
-
-Network failure and recovery simulation
-
-Power failure and battery backup behavior
-
-SMS Alert Flow
-
-Security event is triggered (e.g., door breach)
-
-Event severity is evaluated
-
-Alert is displayed within the application
-
-SMS notification is sent to the registered mobile number
-
-User receives real-time security information
-
-SMS alerts improve reliability during poor internet connectivity or when the app is closed.
-
-Technology Stack
-
-Platform: Mobile Application (mention Flutter / Android / React Native)
-
-Alert System: SMS-based notification
-
-UI: Custom-designed mobile UI
-
-Architecture: Event-driven alert handling
-
-Simulation: Scenario-based state management
-
-Use Cases
-
-Mobile home security monitoring
-
-Alert-based safety applications
-
-Security system simulation and testing
-
-Academic and portfolio demonstration
