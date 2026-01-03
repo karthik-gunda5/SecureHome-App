@@ -92,7 +92,11 @@ Screenshots of the application UI are available in the ## 📷 Screenshots
 
 ## 🔗 Demo
 
-- Canva Visual Walkthrough: **(add your Canva link here)**
+- ## 🔗 Demo & Visual Walkthrough
+
+- 🎨 **Canva Portfolio**:  
+  [View SecureHome Visual Walkthrough](https://www.canva.com/design/DAG6VWvLM8w/NIKwFk3m6CUEuWah4qcmeg/edit)
+
 
 ---
 
