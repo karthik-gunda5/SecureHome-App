@@ -84,7 +84,9 @@ This project demonstrates **application-level system design**, alert handling lo
 
 ## Screenshots
 
-Screenshots of the application UI are available in the `screenshots/` folder.
+Screenshots of the application UI are available in the ## 📷 Screenshots
+ [View Screenshots](screenshots/)
+ folder.
 
 ---
 
